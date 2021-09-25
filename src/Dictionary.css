@@ -1,2 +1,9 @@
 .dictionary {
 }
+.meaning {
+  background-color: lightgreen;
+}
+.example {
+  font-style: italic;
+  margin-bottom: 20px;
+}
