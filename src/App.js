@@ -7,7 +7,7 @@ function App() {
       <div className="container">
         <header className="header">Dictionary App</header>
         <Dictionary />
-        <div>
+        <footer>
           Open-source{" "}
           <a
             href="https://github.com/louiseuna/dictionary-react-app"
@@ -17,7 +17,7 @@ function App() {
             code
           </a>{" "}
           by Louise Dicks
-        </div>
+        </footer>
       </div>
     </div>
   );

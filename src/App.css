@@ -1,14 +1,31 @@
-.header {
-  font-size: 36px;
-  font-weight: 800;
-  margin-top: 20px;
+.App {
+  min-height: 100vh;
+  background: linear-gradient(
+    230deg,
+    rgb(167, 220, 225) 11.2%,
+    rgb(217, 239, 242) 88.9%
+  );
 }
-div a {
+.header {
+  font-size: 42px;
+  font-weight: 800;
+  padding-top: 20px;
+  text-align: center;
+  color: #7dace4;
+  margin-bottom: 20px;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
   color: #000;
+}
+footer a {
   text-decoration: none;
   font-weight: 600;
+  color: #8971d0;
 }
-div a:hover {
-  color: blueviolet;
+footer a:hover {
+  color: #8971d0;
   text-decoration: underline;
 }
