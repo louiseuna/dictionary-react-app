@@ -3,3 +3,12 @@
   font-weight: 800;
   margin-top: 20px;
 }
+div a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+}
+div a:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
