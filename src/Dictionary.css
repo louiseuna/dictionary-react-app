@@ -33,5 +33,15 @@
 }
 .example {
   font-style: italic;
+  margin-bottom: 5px;
+}
+.synonyms {
+  color: #8971d0;
+  font-size: 14px;
+  font-style: italic;
   margin-bottom: 20px;
+}
+.synonyms li {
+  list-style-type: none;
+  display: inline;
 }
