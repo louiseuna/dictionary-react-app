@@ -2,6 +2,7 @@
   padding: 20px 0px;
 }
 .search-form {
+  width: 387px;
   display: table;
   margin: 0 auto;
   background-color: #fff;
@@ -90,16 +91,19 @@ form {
   display: inline-block;
 }
 .photos {
-  border-radius: 5px;
+  border-radius: 20px;
   display: table;
   margin: 10px auto;
   margin-top: 20px;
+  background-color: #fff;
+  padding: 5px 10px;
+  box-shadow: 0 5px 20px rgb(0 0 0 / 50%);
 }
 .photos .row {
   width: 387px;
 }
 .photos img {
   width: 200px;
-  border-radius: 5px;
-  margin-bottom: 10px;
+  border-radius: 10px;
+  margin: 5px 0px;
 }
