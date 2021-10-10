@@ -26,7 +26,7 @@ export default function Dictionary() {
 
   return (
     <div className="dictionary">
-      <div className="search-form">
+      <section className="search-form">
         <form onSubmit={search}>
           <input
             className="search"
@@ -37,7 +37,10 @@ export default function Dictionary() {
           />
           <input className="submit" type="submit" value="Search" />
         </form>
-      </div>
+        <div className="suggested">
+          Suggested words: sunset, petrichor, incredulous...
+        </div>
+      </section>
       <Results results={results} />
     </div>
   );
