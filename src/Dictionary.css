@@ -89,7 +89,9 @@ form {
 }
 .synonyms li {
   list-style-type: none;
+  padding-right: 10px;
   display: inline-block;
+  line-height: 1;
 }
 .photos {
   border-radius: 20px;
