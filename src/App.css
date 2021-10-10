@@ -9,14 +9,14 @@
 .header {
   font-size: 42px;
   font-weight: 800;
-  padding-top: 20px;
+  padding-top: 0px;
   text-align: center;
   color: #7dace4;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 footer {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   padding-bottom: 20px;
   color: #000;
 }

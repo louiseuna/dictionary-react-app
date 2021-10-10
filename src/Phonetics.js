@@ -11,9 +11,7 @@ export default function Phonetic(props) {
         <span class="volume" onClick={playSound}>
           Listen 🔊
         </span>
-        <br />
         <span>{props.phonetic.text}</span>
-        <br></br>
       </div>
     );
   }
