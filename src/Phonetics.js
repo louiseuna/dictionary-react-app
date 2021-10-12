@@ -6,13 +6,21 @@ export default function Phonetic(props) {
     function playSound() {
       audio.play();
     }
-    return (
-      <div className="phonetics">
-        <span class="volume" onClick={playSound}>
-          Listen 🔊
-        </span>
-        <span>{props.phonetic.text}</span>
-      </div>
-    );
+    if (props.phonetic.audio) {
+      return (
+        <div className="phonetics">
+          <span className="volume" onClick={playSound}>
+            Listen 🔊
+          </span>
+          <span>{props.phonetic.text}</span>
+        </div>
+      );
+    } else {
+      return (
+        <div className="phonetics">
+          <span>{props.phonetic.text}</span>
+        </div>
+      );
+    }
   }
 }
