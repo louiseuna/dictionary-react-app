@@ -11,8 +11,10 @@
   box-shadow: 0 5px 20px rgb(0 0 0 / 50%);
 }
 .suggested {
+  font-family: "Oswald", sans-serif;
   color: #8971d0;
   font-size: 14px;
+  text-align: center;
 }
 form {
   display: block;
@@ -36,7 +38,7 @@ form {
 }
 .results {
   position: relative;
-  width: 75%;
+  width: 35%;
   display: block;
   margin: 0 auto;
   background-color: #fff;
@@ -45,7 +47,12 @@ form {
   border-radius: 20px;
   box-shadow: 0 5px 20px rgb(0 0 0 / 50%);
 }
+span.results {
+  text-align: center;
+}
 .results h2 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: capitalize;
   font-size: 36px;
   font-weight: 800;
@@ -64,6 +71,7 @@ form {
   margin-bottom: 10px;
 }
 .phonetics .volume {
+  font-family: "Oswald", sans-serif;
   color: #8971d0;
   font-weight: 600;
   margin-right: 10px;
@@ -72,6 +80,7 @@ form {
   cursor: pointer;
 }
 .meaning h3 {
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
   color: #8971d0;
 }
@@ -109,4 +118,33 @@ form {
   width: 200px;
   border-radius: 10px;
   margin: 5px 0px;
+}
+@media only screen and (max-width: 1200px) {
+  .results {
+    width: 387px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .search-form {
+    width: 75%;
+  }
+  .search {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .submit {
+    display: block;
+    margin: 0 auto;
+  }
+  .results {
+    width: 75%;
+  }
+  .photos {
+    width: 75%;
+  }
+  .photos .row {
+    width: unset;
+  }
 }
